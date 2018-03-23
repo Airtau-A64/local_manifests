@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="ayufan" fetch="https://github.com/ayufan-pine64" />
+  <remote name="airtau" fetch="https://github.com/Airtau-A64" />
   <remote name="omnirom" fetch="https://github.com/omnirom" />
   <remote name="cm" fetch="https://github.com/CyanogenMod" />
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
@@ -19,12 +19,12 @@
   <remove-project name="platform/system/sepolicy" />
 
   <!-- Device support -->
-  <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="hardware/aw" name="hardware-aw" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="vendor/ayufan-pine64/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
-  <project path="vendor/ayufan-pine64/boot-tools" name="boot-tools" remote="ayufan" revision="master" groups="pdk" />
-  <project path="vendor/ayufan-pine64/apps" name="vendor-ayufan-apps" remote="ayufan" revision="master" groups="pdk" />
+  <project path="device/softwinner" name="device-softwinner" remote="airtau" revision="nougat" groups="pdk" />
+  <project path="hardware/aw" name="hardware-aw" remote="airtau" revision="nougat" groups="pdk" />
+  <project path="hardware/realtek" name="hardware-realtek" remote="airtau" revision="nougat" groups="pdk" />
+  <project path="vendor/airtau/A64-common" name="device-a64-common" remote="airtau" revision="master" groups="pdk" />
+  <project path="vendor/airtau/boot-tools" name="boot-tools" remote="airtau" revision="master" groups="pdk" />
+  <project path="vendor/airtau/apps" name="vendor-ayufan-apps" remote="airtau" revision="master" groups="pdk" />
 
   <!-- TWRP recovery -->
   <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
@@ -56,7 +56,7 @@
   <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan" />
 
   <!-- Longsleep kernel for Pine A64 -->
-  <project path="linux/kernel-tulip" name="linux-pine64" clone-depth="1" remote="ayufan" revision="my-hacks-1.2" groups="pdk" />
+  <project path="linux/kernel-tulip" name="linux-pine64" clone-depth="1" remote="airtau" revision="my-hacks-1.2" groups="pdk" />
 
   <!-- Ethernet -->
   <project path="external/ethtool" name="android_external_ethtool" remote="ayufan" revision="s805_4.4.2_master" groups="pdk" />
