@@ -25,6 +25,6 @@
   <project path="hardware/realtek" name="hardware-realtek" remote="airtau" revision="nougat" groups="pdk" />
   <project path="vendor/airtau/A64-common" name="device-a64-common" remote="airtau" revision="master" groups="pdk" />
   <project path="vendor/airtau/boot-tools" name="boot-tools" remote="airtau" revision="master" groups="pdk" />
-  <project path="vendor/airtau/apps" name="vendor-ayufan-apps" remote="airtau" revision="master" groups="pdk" />
+  <project path="vendor/airtau/apps" name="vendor-airtau-apps" remote="airtau" revision="master" groups="pdk" />
 
 </manifest>
